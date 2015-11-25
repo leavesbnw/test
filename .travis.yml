@@ -1,9 +1,8 @@
-language:c
-install:true
+language: c
+install: true
 script:
   - gcc -o test main.c
 after_success:
   - echo "Success!"
 after_failure:
   - echo "Failure!"
-
