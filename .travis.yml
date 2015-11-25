@@ -1,1 +1,10 @@
+language:c
+before_install:true
+install:true
+before_script:
+  - gcc -o test main.c
+after_success:
+  - echo "Success!"
+after_failure:
+  - echo "Failure!"
 
