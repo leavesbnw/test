@@ -1,4 +1,8 @@
 language: c
+branches:
+  only:
+    - master
+    - stable
 before_install: true
 install: true
 script:
